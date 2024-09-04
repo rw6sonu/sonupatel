@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
+    int angle1,angle2,angle3;
 
-    a=45;
-    b=65;
+    angle1=45;
+    angle2=65;
 
-    c=a+b-180;
-    printf("c is:%d",c);
+    angle3=180-(angle1+angle2);
+    printf("angle3 is:%d",angle3);
 
 }
